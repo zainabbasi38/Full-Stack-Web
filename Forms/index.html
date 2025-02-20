@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms in html</title>
+</head>
+<body>
+    <h1>Tags</h1>
+    <!-- Form is used to create a form -->
+    <form action="post">
+
+        <div></div>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Your username">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" placeholder="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" placeholder="female">
+        </div>
+
+        <div>
+        <input type="checkbox" name="checkbox" id="subscribe" value="yes">
+        <label for="subscribe">Subscribe for newsletter</label>
+        </div>
+    
+        <div>
+            <label for="textarea">Enter your comment</label>
+            <br>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your comment"></textarea>
+        </div>
+        <div>
+            <label for="country">Select your country</label>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="pakistan">Pakistan</option>
+            </select>
+        </div>
+        <div>
+            <label for="submit">Submit</label>
+            <input type="submit" value="Submit" placeholder="Submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>
