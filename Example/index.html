@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        div p:first-of-type {
+            background-color: yellow;
+            color: red;
+        }
+
+        div p:not(:first-of-type) {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesentium repellendus, rem nostrum odit earum, quo ipsum iste voluptate quia saepe illum, enim fugit molestiae mollitia sit. Accusantium, tempore quas.</p>
+        <p>i am a para</p>
+        <p>i am another para</p>
+        <p>hello</p>
+    </div>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident praesentium repellendus, rem nostrum odit earum, quo ipsum iste voluptate quia saepe illum, enim fugit molestiae mollitia sit. Accusantium, tempore quas.</p>
+        <p>i am a para</p>
+        <p>i am another para</p>
+    </div>
+</body>
+</html>
