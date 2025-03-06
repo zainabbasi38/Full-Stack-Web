@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* header{
+            position: absolute;
+        } */
+        nav{
+            height: 70px;
+            background-color: cadetblue;
+            /* position:; */
+        }
+        .body{
+            height: 600px;
+            width: 100%;
+            background-color: bisque;
+            margin: 20px;
+            position: relative;
+            z-index: 10;
+        }
+        .box1{
+            height: 400px;
+            display: inline-block;
+            width: 400px;
+            background-color: orange;
+            margin: 20px;
+            margin-right: 20px;
+        }
+        .box2{
+            height: 400px;
+            display: inline-block;
+            width: 400px;
+            background-color: orangered;
+            margin: 20px;
+            margin-top: 20px;
+            /* padding-left: 150px; */
+        }
+        footer div{
+            height: 100px;
+            width: 100%;
+            background-color: chocolate;
+            position: relative;
+        }
+        .content{
+            border: 2px solid black;
+            height: 200px;
+            border-radius: 50px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <div class="body">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <div class="content">
+        Welcome
+    </div>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+</html>
