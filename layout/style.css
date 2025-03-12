@@ -1,0 +1,74 @@
+.logo img {
+    width: 160px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.right ul {
+
+    /* list-style: none; */
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.first {
+    display: flex;
+    /* background-color: aquamarine; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 34px;
+
+
+}
+
+.first span {
+    font-size: 30px;
+
+}
+
+main .first p {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    padding: 22px;
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.grid {
+    display: grid;
+    
+}
