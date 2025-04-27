@@ -1,0 +1,20 @@
+.container{
+    height: 50px;
+    width: 100%;
+    border: 2px solid black; 
+}
+.container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .container ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+} */
