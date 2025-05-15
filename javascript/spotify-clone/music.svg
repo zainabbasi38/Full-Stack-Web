@@ -1,0 +1,16 @@
+<svg width="80" height="80" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="4">
+  <!-- First note head -->
+  <ellipse cx="40" cy="80" rx="8" ry="5" transform="rotate(-20 40 80)" />
+  
+  <!-- Second note head -->
+  <ellipse cx="80" cy="70" rx="8" ry="5" transform="rotate(-20 80 70)" />
+
+  <!-- First stem -->
+  <line x1="40" y1="80" x2="40" y2="40" />
+
+  <!-- Second stem -->
+  <line x1="80" y1="70" x2="80" y2="30" />
+
+  <!-- Connecting beam -->
+  <path d="M40 40 L80 30" stroke="black" />
+</svg>
