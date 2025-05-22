@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.timing{
+  position: fixed;
+  right: 0;
+}
